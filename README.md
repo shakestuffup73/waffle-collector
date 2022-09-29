@@ -1,1 +1,1 @@
-# waffle collector
+# waffle-collector

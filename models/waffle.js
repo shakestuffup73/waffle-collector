@@ -10,7 +10,7 @@ const reviewSchema = new mongoose.Schema ({
 
 
 const waffleSchema = new mongoose.Schema({
-  email: String,
+  description: String,
   owner: {type: mongoose.Schema.Types.ObjectId, ref: 'Profile'},
   reviews: [reviewSchema],
   toppings: [{type: mongoose.Schema.Types.ObjectId, ref: 'Topping'}]

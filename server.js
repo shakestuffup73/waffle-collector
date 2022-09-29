@@ -67,6 +67,7 @@ app.use(passDataToView)
 // router middleware
 app.use('/', indexRouter)
 app.use('/auth', authRouter)
+
 app.use('/waffles', wafflesRouter)
 app.use('/toppings', toppingsRouter)
 
